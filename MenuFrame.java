@@ -24,11 +24,13 @@ public class MenuFrame {
     
                 switch (option) {
                     case 1:
-                        System.out.print("Enter deposit amount: ");
-                        double depositAmount = scanner.nextDouble();
+                    System.out.printf("-------------------- Balance is: R %.2f -----------------\n",authenticatedUser.getBalance());
+                    System.out.print("Enter deposit amount: ");
+                    double depositAmount = scanner.nextDouble();
                         bank.deposit(authenticatedUser, depositAmount);
                         break;
                     case 2:
+                        System.out.printf("-------------------- Balance is: R %.2f -----------------\n",authenticatedUser.getBalance());
                         System.out.print("Enter withdrawal amount: ");
                         double withdrawalAmount = scanner.nextDouble();
                         bank.withdraw(authenticatedUser, withdrawalAmount);

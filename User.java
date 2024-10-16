@@ -21,7 +21,9 @@ public class User {
     public long getAccountNumber() {
         return accountNumber;
     }
-
+    public int Id(){
+        return userId;
+    }
     public int getPin() {
         return pin;
     }
