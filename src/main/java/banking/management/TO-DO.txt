@@ -1,0 +1,6 @@
+1. Withdrawals and Deposits has to be taxed according to the Bank 
+2. Limit has to be updated in the menu
+3. (Optional) Check Your Recent Payouts  --DONE--
+4. Be able to send money to other local accounts --DONE---
+5. View Your details
+6. Sanitise the user input for any error or parsing issues..

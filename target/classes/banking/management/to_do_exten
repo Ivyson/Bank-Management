@@ -1,0 +1,4 @@
+1. Test that withdrawals are taxed according to the bank's policy.
+3. Test that a user cannot withdraw more than the default limit of R500.
+4. Test that a user can update their withdrawal limit.
+5. Test that a user can view their own details.

@@ -1,0 +1,178 @@
+{
+  "users" : [ {
+    "accountNumber" : 123456789,
+    "pin" : 1234,
+    "firstName" : "Sam",
+    "lastName" : "Boy",
+    "balance" : 498790.93,
+    "withdrawalLimit" : 1000.0,
+    "transactionHistory" : [ {
+      "type" : "deposit",
+      "amount" : 200.0,
+      "date" : "2024-10-10"
+    }, {
+      "type" : "withdrawal",
+      "amount" : -50.0,
+      "date" : "2024-10-12"
+    }, {
+      "type" : "deposit",
+      "amount" : 600.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "deposit",
+      "amount" : 500.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 100.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "deposit",
+      "amount" : 500000.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 500.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 100.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 2000.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "deposit",
+      "amount" : 100.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 7.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "deposit",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 500.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "deposit",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    } ],
+    "beneficiaries" : [ {
+      "name" : "Sam",
+      "accountNumber" : 987654321
+    }, {
+      "name" : "Johnson",
+      "accountNumber" : 111222333
+    } ]
+  }, {
+    "accountNumber" : 987654321,
+    "pin" : 4321,
+    "firstName" : "Gift",
+    "lastName" : "Sam",
+    "balance" : 2300.0,
+    "withdrawalLimit" : 500.0,
+    "transactionHistory" : [ {
+      "type" : "deposit",
+      "amount" : 300.0,
+      "date" : "2024-10-11"
+    }, {
+      "type" : "withdrawal",
+      "amount" : -100.0,
+      "date" : "2024-10-13"
+    }, {
+      "type" : "pay-in",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-in",
+      "amount" : 100.0,
+      "date" : "2024-10-17"
+    } ],
+    "beneficiaries" : [ ]
+  }, {
+    "accountNumber" : 111222333,
+    "pin" : 1111,
+    "firstName" : "Alice",
+    "lastName" : "Johnson",
+    "balance" : 4300.0,
+    "withdrawalLimit" : 500.0,
+    "transactionHistory" : [ {
+      "type" : "deposit",
+      "amount" : 400.0,
+      "date" : "2024-10-14"
+    }, {
+      "type" : "withdrawal",
+      "amount" : -200.0,
+      "date" : "2024-10-15"
+    }, {
+      "type" : "pay-in",
+      "amount" : 200.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-in",
+      "amount" : 100.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-in",
+      "amount" : 2000.0,
+      "date" : "2024-10-17"
+    }, {
+      "type" : "pay-in",
+      "amount" : 500.0,
+      "date" : "2024-10-17"
+    } ],
+    "beneficiaries" : [ ]
+  }, {
+    "accountNumber" : 444555666,
+    "pin" : 2222,
+    "firstName" : "Bob",
+    "lastName" : "Brown",
+    "balance" : 2500.0,
+    "withdrawalLimit" : 500.0,
+    "transactionHistory" : [ {
+      "type" : "deposit",
+      "amount" : 500.0,
+      "date" : "2024-10-16"
+    }, {
+      "type" : "withdrawal",
+      "amount" : -150.0,
+      "date" : "2024-10-17"
+    } ],
+    "beneficiaries" : [ ]
+  }, {
+    "accountNumber" : 777888999,
+    "pin" : 3333,
+    "firstName" : "Bill",
+    "lastName" : "Davis",
+    "balance" : 3000.0,
+    "withdrawalLimit" : 500.0,
+    "transactionHistory" : [ {
+      "type" : "deposit",
+      "amount" : 600.0,
+      "date" : "2024-10-18"
+    }, {
+      "type" : "withdrawal",
+      "amount" : -250.0,
+      "date" : "2024-10-19"
+    } ],
+    "beneficiaries" : [ ]
+  } ]
+}
