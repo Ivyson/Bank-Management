@@ -75,12 +75,6 @@ This project is a **Banking Management System** developed in Java that simulates
 4. **Payments**: Select option `5`, choose a beneficiary, and make a payment.
 5. **View Transactions**: Option `4` will display all previous transactions neatly.
 
-## Customizations and Enhancements
-This system could be further improved by:
-- Adding **interest calculations** for accounts.
-- Implementing **multi-currency** support.
-- Introducing a **user-friendly graphical interface (GUI)**.
-
 ## How It Works
 Each feature is designed to be user-friendly with a clean, text-based interface. Whenever the user performs an operation, such as making a deposit or withdrawal, the system validates the input and updates the account data accordingly. Transaction history is updated in real-time, and all data is saved to JSON files, ensuring persistence across sessions.
 
@@ -88,3 +82,17 @@ Each feature is designed to be user-friendly with a clean, text-based interface.
 - You can edit the `data.json` file to initialize your users and their balances.
 - The system will not allow a user to **withdraw more than the default limit (R500)** unless the limit is updated.
 - **Hidden password input** is used during PIN entry, replacing the typed digits with asterisks for security.
+### Possible Advancements 
+1. Account Management
+   - Account Creation
+   - Account Deletion
+2. Security elevation
+   - Allow the user to be authenticated when they have forgotten their password. This would require an integration of more details like Phone number and Gmail accounts.. Use regex to ensure that the users are using authorised email domains... 
+3. User Interface Enhancement
+   - Use GUI for user friendliness, Or present menus and outputs as tables to ensure that the code appears much more cleaner
+4. Inter - Account Transfers
+   - Allow Users to create nested accounts, and also be able to transfer their money within their nested accounts, Possibly be able to open savings accountto save moeny
+5. Bills Payment
+   - Allow users to pay public companies that are registered (eg:- DSTV Multi-choice, CPUT Fees etc.)
+6. Sanitation of inputs
+   - Ensure that the User inputs are sanitised to ensure a proper flow of program.
