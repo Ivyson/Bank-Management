@@ -11,8 +11,8 @@
       "pin": 1234,
       "balance": 1000.0,
       "transactionHistory": [
-        { "type": "deposit", "amount": "+R200", "date": "2024-10-10" },
-        { "type": "withdrawal", "amount": "-R50", "date": "2024-10-12" }
+        { "type": "deposit", "amount": 200.0, "date": "2024-10-10" },
+        { "type": "withdrawal", "amount": -50.0, "date": "2024-10-12" }
       ]
     },
     {
@@ -23,8 +23,8 @@
       "pin": 4321,
       "balance": 2000.0,
       "transactionHistory": [
-        { "type": "deposit", "amount": "+R300", "date": "2024-10-11" },
-        { "type": "withdrawal", "amount": "-R100", "date": "2024-10-13" }
+        { "type": "deposit", "amount": 300.0, "date": "2024-10-11" },
+        { "type": "withdrawal", "amount": -100.0, "date": "2024-10-13" }
       ]
     },
     {
@@ -35,8 +35,8 @@
       "pin": 1111,
       "balance": 1500.0,
       "transactionHistory": [
-        { "type": "deposit", "amount": "+R400", "date": "2024-10-14" },
-        { "type": "withdrawal", "amount": "-R200", "date": "2024-10-15" }
+        { "type": "deposit", "amount": 400.0, "date": "2024-10-14" },
+        { "type": "withdrawal", "amount": -200.0, "date": "2024-10-15" }
       ]
     },
     {
@@ -47,8 +47,8 @@
       "pin": 2222,
       "balance": 2500.0,
       "transactionHistory": [
-        { "type": "deposit", "amount": "+R500", "date": "2024-10-16" },
-        { "type": "withdrawal", "amount": "-R150", "date": "2024-10-17" }
+        { "type": "deposit", "amount": 500.0, "date": "2024-10-16" },
+        { "type": "withdrawal", "amount": -150.0, "date": "2024-10-17" }
       ]
     },
     {
@@ -59,8 +59,8 @@
       "pin": 3333,
       "balance": 3000.0,
       "transactionHistory": [
-        { "type": "deposit", "amount": "+R600", "date": "2024-10-18" },
-        { "type": "withdrawal", "amount": "-R250", "date": "2024-10-19" }
+        { "type": "deposit", "amount": 600.0, "date": "2024-10-18" },
+        { "type": "withdrawal", "amount": -250.0, "date": "2024-10-19" }
       ]
     }
   ]
