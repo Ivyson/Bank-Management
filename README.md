@@ -122,5 +122,5 @@ src
 │       └── banking
 │           └── management
 │               └── BankTest.java
-└── [README.md](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2FREADME.md%22%2C%22path%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2FREADME.md%22%2C%22scheme%22%3A%22file%22%7D%7D)
- └── [data.json](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2Fdata.json%22%2C%22path%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2Fdata.json%22%2C%22scheme%22%3A%22file%22%7D%7D)
+├── README.md
+└── data.json
