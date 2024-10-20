@@ -4,8 +4,10 @@
     "pin" : 1234,
     "firstName" : "Sam",
     "lastName" : "Boy",
-    "balance" : 498790.93,
+    "balance" : 478254.44999999995,
     "withdrawalLimit" : 1000.0,
+    "email" : "sam.boy@gmail.com",
+    "phoneNumber" : "0812345678",
     "transactionHistory" : [ {
       "type" : "deposit",
       "amount" : 200.0,
@@ -74,6 +76,86 @@
       "type" : "deposit",
       "amount" : 200.0,
       "date" : "2024-10-17"
+    }, {
+      "type" : "pay-out",
+      "amount" : 200.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "deposit",
+      "amount" : 490.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "deposit",
+      "amount" : 98.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 20000.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "deposit",
+      "amount" : 196.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 200.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "deposit",
+      "amount" : 3.92,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "deposit",
+      "amount" : 500.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "Admin Fee",
+      "amount" : -10.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "deposit",
+      "amount" : 200.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "Admin Fee",
+      "amount" : -4.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 200.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "Admin Fee",
+      "amount" : -4.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "deposit",
+      "amount" : 120.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "Admin Fee",
+      "amount" : -2.4,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 500.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "Admin Fee",
+      "amount" : -10.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "withdrawal",
+      "amount" : 500.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "Admin Fee",
+      "amount" : -10.0,
+      "date" : "2024-10-21"
+    }, {
+      "type" : "pay-out",
+      "amount" : 100.0,
+      "date" : "2024-10-21"
     } ],
     "beneficiaries" : [ {
       "name" : "Sam",
@@ -87,8 +169,10 @@
     "pin" : 4321,
     "firstName" : "Gift",
     "lastName" : "Sam",
-    "balance" : 2300.0,
+    "balance" : 2600.0,
     "withdrawalLimit" : 500.0,
+    "email" : "gift.sam@cput.ac.za",
+    "phoneNumber" : "987-654-3210",
     "transactionHistory" : [ {
       "type" : "deposit",
       "amount" : 300.0,
@@ -105,6 +189,14 @@
       "type" : "pay-in",
       "amount" : 100.0,
       "date" : "2024-10-17"
+    }, {
+      "type" : "pay-in",
+      "amount" : 200.0,
+      "date" : "2024-10-20"
+    }, {
+      "type" : "pay-in",
+      "amount" : 100.0,
+      "date" : "2024-10-21"
     } ],
     "beneficiaries" : [ ]
   }, {
@@ -114,6 +206,8 @@
     "lastName" : "Johnson",
     "balance" : 4300.0,
     "withdrawalLimit" : 500.0,
+    "email" : "alice.johnson@cput.ac.za",
+    "phoneNumber" : "111-222-3333",
     "transactionHistory" : [ {
       "type" : "deposit",
       "amount" : 400.0,
@@ -147,6 +241,8 @@
     "lastName" : "Brown",
     "balance" : 2500.0,
     "withdrawalLimit" : 500.0,
+    "email" : "bob.brown@cput.ac.za",
+    "phoneNumber" : "444-555-6666",
     "transactionHistory" : [ {
       "type" : "deposit",
       "amount" : 500.0,
@@ -164,6 +260,8 @@
     "lastName" : "Davis",
     "balance" : 3000.0,
     "withdrawalLimit" : 500.0,
+    "email" : "bill.davis@cput.ac.za",
+    "phoneNumber" : "777-888-9999",
     "transactionHistory" : [ {
       "type" : "deposit",
       "amount" : 600.0,
@@ -173,6 +271,17 @@
       "amount" : -250.0,
       "date" : "2024-10-19"
     } ],
+    "beneficiaries" : [ ]
+  }, {
+    "accountNumber" : 1729457672886,
+    "pin" : 4652,
+    "firstName" : "Bonga",
+    "lastName" : "Pillay",
+    "balance" : 500.0,
+    "withdrawalLimit" : 500.0,
+    "email" : "Bonga.Pillay@cput.ac.za",
+    "phoneNumber" : "0781035631",
+    "transactionHistory" : [ ],
     "beneficiaries" : [ ]
   } ]
 }

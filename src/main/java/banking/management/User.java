@@ -1,11 +1,8 @@
 package banking.management;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import java.util.ArrayList;
 import java.util.List;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
     private long accountNumber;
     private int pin;
@@ -13,6 +10,8 @@ public class User {
     private String lastName;
     private double balance;
     private double withdrawalLimit;
+    private String email;
+    private String phoneNumber;
     private List<Transactions> transactionHistory;
     private List<Beneficiary> beneficiaries;
 
@@ -22,8 +21,10 @@ public class User {
         this.beneficiaries = new ArrayList<>();
     }
 
+    // Getters and setters for all fields
+
     public long getAccountNumber() {
-        return accountNumber;   
+        return accountNumber;
     }
 
     public void setAccountNumber(long accountNumber) {
@@ -70,6 +71,22 @@ public class User {
         this.withdrawalLimit = withdrawalLimit;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     public List<Transactions> getTransactionHistory() {
         return transactionHistory;
     }
@@ -85,7 +102,4 @@ public class User {
     public void addBeneficiary(String name, long accountNumber) {
         this.beneficiaries.add(new Beneficiary(name, accountNumber));
     }
-    
-  
-        
 }
