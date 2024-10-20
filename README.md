@@ -10,6 +10,12 @@ This project is a **Banking Management System** developed in Java that simulates
 5. **Balance Inquiry**: Displays the user's current balance.
 6. **Beneficiaries**: Ability to add new beneficiaries or pay to previously added ones.
 7. **Customizable Withdrawal Limit**: Users can update their own withdrawal limits.
+8. **Account Management**: Features for account creation and deletion.
+9. **Enhanced Security**: Password recovery using phone number and email verification.
+10. **User Interface Enhancement**: Improved user interface with GUI or table-based text menus.
+11. **Inter-Account Transfers**: Allows users to create nested accounts and transfer money within them.
+12. **Bills Payment**: Enables users to pay registered public companies.
+13. **Input Sanitization**: Ensures proper input validation and sanitation.
 
 ## Key Components:
 
@@ -82,17 +88,39 @@ Each feature is designed to be user-friendly with a clean, text-based interface.
 - You can edit the `data.json` file to initialize your users and their balances.
 - The system will not allow a user to **withdraw more than the default limit (R500)** unless the limit is updated.
 - **Hidden password input** is used during PIN entry, replacing the typed digits with asterisks for security.
+
 ### Possible Advancements 
-1. Account Management
-   - Account Creation
-   - Account Deletion
-2. Security elevation
-   - Allow the user to be authenticated when they have forgotten their password. This would require an integration of more details like Phone number and Gmail accounts.. Use regex to ensure that the users are using authorised email domains... 
-3. User Interface Enhancement
-   - Use GUI for user friendliness, Or present menus and outputs as tables to ensure that the code appears much more cleaner
-4. Inter - Account Transfers
-   - Allow Users to create nested accounts, and also be able to transfer their money within their nested accounts, Possibly be able to open savings accountto save moeny
-5. Bills Payment
-   - Allow users to pay public companies that are registered (eg:- DSTV Multi-choice, CPUT Fees etc.)
-6. Sanitation of inputs
-   - Ensure that the User inputs are sanitised to ensure a proper flow of program.
+1. **Account Management**:
+   - Account Creation   [Done]
+   - Account Deletion [Done]
+2. **Security Elevation**:
+   - Password recovery using phone number and email verification.
+3. **User Interface Enhancement**:
+   - Use GUI for user friendliness, or present menus and outputs as tables for cleaner code.
+4. **Inter-Account Transfers**:
+   - Allow users to create nested accounts and transfer money within them.
+5. **Bills Payment**:
+   - Enable users to pay registered public companies (e.g., DSTV Multi-choice, CPUT Fees).
+6. **Input Sanitization**:
+   - Ensure proper input validation and sanitation.
+
+
+src
+├── main
+│   ├── java
+│   │   └── banking
+│   │       └── management
+│   │           ├── Bank.java
+│   │           ├── Main.java
+│   │           ├── User.java
+│   │           ├── Transactions.java
+│   │           ├── Beneficiary.java
+│   │           └── UsersWrapper.java
+│   └── resources
+├── test
+│   └── java
+│       └── banking
+│           └── management
+│               └── BankTest.java
+└── [README.md](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2FREADME.md%22%2C%22path%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2FREADME.md%22%2C%22scheme%22%3A%22file%22%7D%7D)
+ └── [data.json](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2Fdata.json%22%2C%22path%22%3A%22%2FUsers%2Fsam%2FDownloads%2Fbankingmangement%2Fdata.json%22%2C%22scheme%22%3A%22file%22%7D%7D)
