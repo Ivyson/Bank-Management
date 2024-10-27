@@ -1,295 +1,127 @@
 {
-  "users" : [ {
-    "accountNumber" : 123456789,
-    "pin" : 1234,
-    "firstName" : "Sam",
-    "lastName" : "Boy",
-    "balance" : 478054.44999999995,
-    "withdrawalLimit" : 1000.0,
-    "email" : "sam.boy@gmail.com",
-    "phoneNumber" : "0812345678",
-    "transactionHistory" : [ {
-      "type" : "deposit",
-      "amount" : 200.0,
-      "date" : "2024-10-10"
-    }, {
-      "type" : "withdrawal",
-      "amount" : -50.0,
-      "date" : "2024-10-12"
-    }, {
-      "type" : "deposit",
-      "amount" : 600.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "deposit",
-      "amount" : 500.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 100.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "deposit",
-      "amount" : 500000.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 500.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 100.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 2000.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "deposit",
-      "amount" : 100.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 7.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "deposit",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 500.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "deposit",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-out",
-      "amount" : 200.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "deposit",
-      "amount" : 490.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "deposit",
-      "amount" : 98.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 20000.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "deposit",
-      "amount" : 196.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 200.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "deposit",
-      "amount" : 3.92,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "deposit",
-      "amount" : 500.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "Admin Fee",
-      "amount" : -10.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "deposit",
-      "amount" : 200.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "Admin Fee",
-      "amount" : -4.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 200.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "Admin Fee",
-      "amount" : -4.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "deposit",
-      "amount" : 120.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "Admin Fee",
-      "amount" : -2.4,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 500.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "Admin Fee",
-      "amount" : -10.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "withdrawal",
-      "amount" : 500.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "Admin Fee",
-      "amount" : -10.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "pay-out",
-      "amount" : 100.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "pay-out",
-      "amount" : 200.0,
-      "date" : "2024-10-22"
-    } ],
-    "beneficiaries" : [ {
-      "name" : "Sam",
-      "accountNumber" : 987654321
-    }, {
-      "name" : "Johnson",
-      "accountNumber" : 111222333
-    } ]
-  }, {
-    "accountNumber" : 987654321,
-    "pin" : 4321,
-    "firstName" : "Gift",
-    "lastName" : "Sam",
-    "balance" : 2800.0,
-    "withdrawalLimit" : 500.0,
-    "email" : "gift.sam@cput.ac.za",
-    "phoneNumber" : "987-654-3210",
-    "transactionHistory" : [ {
-      "type" : "deposit",
-      "amount" : 300.0,
-      "date" : "2024-10-11"
-    }, {
-      "type" : "withdrawal",
-      "amount" : -100.0,
-      "date" : "2024-10-13"
-    }, {
-      "type" : "pay-in",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-in",
-      "amount" : 100.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-in",
-      "amount" : 200.0,
-      "date" : "2024-10-20"
-    }, {
-      "type" : "pay-in",
-      "amount" : 100.0,
-      "date" : "2024-10-21"
-    }, {
-      "type" : "pay-in",
-      "amount" : 200.0,
-      "date" : "2024-10-22"
-    } ],
-    "beneficiaries" : [ ]
-  }, {
-    "accountNumber" : 111222333,
-    "pin" : 1111,
-    "firstName" : "Alice",
-    "lastName" : "Johnson",
-    "balance" : 4300.0,
-    "withdrawalLimit" : 500.0,
-    "email" : "alice.johnson@cput.ac.za",
-    "phoneNumber" : "111-222-3333",
-    "transactionHistory" : [ {
-      "type" : "deposit",
-      "amount" : 400.0,
-      "date" : "2024-10-14"
-    }, {
-      "type" : "withdrawal",
-      "amount" : -200.0,
-      "date" : "2024-10-15"
-    }, {
-      "type" : "pay-in",
-      "amount" : 200.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-in",
-      "amount" : 100.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-in",
-      "amount" : 2000.0,
-      "date" : "2024-10-17"
-    }, {
-      "type" : "pay-in",
-      "amount" : 500.0,
-      "date" : "2024-10-17"
-    } ],
-    "beneficiaries" : [ ]
-  }, {
-    "accountNumber" : 444555666,
-    "pin" : 2222,
-    "firstName" : "Bob",
-    "lastName" : "Brown",
-    "balance" : 2500.0,
-    "withdrawalLimit" : 500.0,
-    "email" : "bob.brown@cput.ac.za",
-    "phoneNumber" : "444-555-6666",
-    "transactionHistory" : [ {
-      "type" : "deposit",
-      "amount" : 500.0,
-      "date" : "2024-10-16"
-    }, {
-      "type" : "withdrawal",
-      "amount" : -150.0,
-      "date" : "2024-10-17"
-    } ],
-    "beneficiaries" : [ ]
-  }, {
-    "accountNumber" : 777888999,
-    "pin" : 3333,
-    "firstName" : "Bill",
-    "lastName" : "Davis",
-    "balance" : 3000.0,
-    "withdrawalLimit" : 500.0,
-    "email" : "bill.davis@cput.ac.za",
-    "phoneNumber" : "777-888-9999",
-    "transactionHistory" : [ {
-      "type" : "deposit",
-      "amount" : 600.0,
-      "date" : "2024-10-18"
-    }, {
-      "type" : "withdrawal",
-      "amount" : -250.0,
-      "date" : "2024-10-19"
-    } ],
-    "beneficiaries" : [ ]
-  }, {
-    "accountNumber" : 1729457672886,
-    "pin" : 4652,
-    "firstName" : "Bonga",
-    "lastName" : "Pillay",
-    "balance" : 500.0,
-    "withdrawalLimit" : 500.0,
-    "email" : "Bonga.Pillay@cput.ac.za",
-    "phoneNumber" : "0781035631",
-    "transactionHistory" : [ ],
-    "beneficiaries" : [ ]
-  } ]
+  "users": [
+    {
+      "accountNumber": 123456789,
+      "pin": 1234,
+      "firstName": "Sam",
+      "lastName": "Boy",
+      "balance": 478054.45,
+      "withdrawalLimit": 1000.0,
+      "email": "sam.boy@gmail.com",
+      "phoneNumber": "0812345678",
+      "transactionHistory": [
+        { "type": "deposit", "amount": 200.0, "date": "2024-10-10" },
+        { "type": "withdrawal", "amount": -50.0, "date": "2024-10-12" },
+        { "type": "deposit", "amount": 600.0, "date": "2024-10-17" },
+        { "type": "deposit", "amount": 500.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 100.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "deposit", "amount": 500000.0, "date": "2024-10-17" },
+        { "type": "withdrawal", "amount": 500.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 100.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 2000.0, "date": "2024-10-17" },
+        { "type": "deposit", "amount": 100.0, "date": "2024-10-17" },
+        { "type": "withdrawal", "amount": 7.0, "date": "2024-10-17" },
+        { "type": "deposit", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "withdrawal", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 500.0, "date": "2024-10-17" },
+        { "type": "deposit", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "pay-out", "amount": 200.0, "date": "2024-10-20" },
+        { "type": "deposit", "amount": 490.0, "date": "2024-10-20" },
+        { "type": "deposit", "amount": 98.0, "date": "2024-10-20" },
+        { "type": "withdrawal", "amount": 20000.0, "date": "2024-10-20" },
+        { "type": "deposit", "amount": 196.0, "date": "2024-10-20" },
+        { "type": "withdrawal", "amount": 200.0, "date": "2024-10-20" },
+        { "type": "deposit", "amount": 3.92, "date": "2024-10-20" },
+        { "type": "deposit", "amount": 500.0, "date": "2024-10-21" },
+        { "type": "Admin Fee", "amount": -10.0, "date": "2024-10-21" },
+        { "type": "deposit", "amount": 200.0, "date": "2024-10-21" },
+        { "type": "Admin Fee", "amount": -4.0, "date": "2024-10-21" },
+        { "type": "withdrawal", "amount": 200.0, "date": "2024-10-21" },
+        { "type": "Admin Fee", "amount": -4.0, "date": "2024-10-21" },
+        { "type": "deposit", "amount": 120.0, "date": "2024-10-21" },
+        { "type": "Admin Fee", "amount": -2.4, "date": "2024-10-21" },
+        { "type": "withdrawal", "amount": 500.0, "date": "2024-10-21" },
+        { "type": "Admin Fee", "amount": -10.0, "date": "2024-10-21" },
+        { "type": "withdrawal", "amount": 500.0, "date": "2024-10-21" },
+        { "type": "Admin Fee", "amount": -10.0, "date": "2024-10-21" },
+        { "type": "pay-out", "amount": 100.0, "date": "2024-10-21" },
+        { "type": "pay-out", "amount": 200.0, "date": "2024-10-22" }
+      ],
+      "beneficiaries": [
+        { "name": "Sam", "accountNumber": 987654321 },
+        { "name": "Johnson", "accountNumber": 111222333 }
+      ]
+    },
+    {
+      "accountNumber": 987654321,
+      "pin": 4321,
+      "firstName": "Gift",
+      "lastName": "Sam",
+      "balance": 2800.0,
+      "withdrawalLimit": 500.0,
+      "email": "gift.sam@cput.ac.za",
+      "phoneNumber": "987-654-3210",
+      "transactionHistory": [
+        { "type": "deposit", "amount": 300.0, "date": "2024-10-11" },
+        { "type": "withdrawal", "amount": -100.0, "date": "2024-10-13" },
+        { "type": "pay-in", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "pay-in", "amount": 100.0, "date": "2024-10-17" },
+        { "type": "pay-in", "amount": 200.0, "date": "2024-10-20" },
+        { "type": "pay-in", "amount": 100.0, "date": "2024-10-21" },
+        { "type": "pay-in", "amount": 200.0, "date": "2024-10-22" }
+      ],
+      "beneficiaries": []
+    },
+    {
+      "accountNumber": 111222333,
+      "pin": 1111,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "balance": 4300.0,
+      "withdrawalLimit": 500.0,
+      "email": "alice.johnson@cput.ac.za",
+      "phoneNumber": "111-222-3333",
+      "transactionHistory": [
+        { "type": "deposit", "amount": 400.0, "date": "2024-10-14" },
+        { "type": "withdrawal", "amount": -200.0, "date": "2024-10-15" },
+        { "type": "pay-in", "amount": 200.0, "date": "2024-10-17" },
+        { "type": "pay-in", "amount": 100.0, "date": "2024-10-17" },
+        { "type": "pay-in", "amount": 2000.0, "date": "2024-10-17" },
+        { "type": "pay-in", "amount": 500.0, "date": "2024-10-17" }
+      ],
+      "beneficiaries": []
+    },
+    {
+      "accountNumber": 444555666,
+      "pin": 2222,
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "balance": 2500.0,
+      "withdrawalLimit": 500.0,
+      "email": "bob.brown@cput.ac.za",
+      "phoneNumber": "444-555-6666",
+      "transactionHistory": [
+        { "type": "deposit", "amount": 500.0, "date": "2024-10-16" },
+        { "type": "withdrawal", "amount": -150.0, "date": "2024-10-17" }
+      ],
+      "beneficiaries": []
+    },
+    {
+      "accountNumber": 777888999,
+      "pin": 3333,
+      "firstName": "Bill",
+      "lastName": "Davis",
+      "balance": 3000.0,
+      "withdrawalLimit": 500.0,
+      "email": "bill.davis@cput.ac.za",
+      "phoneNumber": "777-888-9999",
+      "transactionHistory": [
+        { "type": "deposit", "amount": 400.0, "date": "2024-10-17" },
+        { "type": "withdrawal", "amount": -200.0, "date": "2024-10-18" }
+      ],
+      "beneficiaries": []
+    }
+  ]
 }
