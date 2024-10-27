@@ -52,11 +52,11 @@ This project is a **Banking Management System** developed in Java that simulates
 ### Steps to Run:
 1. **Clone the Project**:
    ```bash
-   git clone https://github.com/Ivyson/Banking-Management.git
+   git clone https://github.com/Ivyson/Bank-Management.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd banking-management-system
+   cd bank-management
    ```
 3. **Install Dependencies**:
    Maven will automatically fetch the necessary dependencies.
@@ -72,6 +72,7 @@ This project is a **Banking Management System** developed in Java that simulates
 5. **Usage**:
    Once the program starts:
    - Enter your **account number** and **PIN** for authentication.
+      - The account numbers and Pins of already existing users can be found in the `data.json` File
    - Select options from the menu to deposit, withdraw, check balance, view transaction history, or make a payment.
 
 ### Sample Workflow:
@@ -87,22 +88,22 @@ Each feature is designed to be user-friendly with a clean, text-based interface.
 ### Notes:
 - You can edit the `data.json` file to initialize your users and their balances.
 - The system will not allow a user to **withdraw more than the default limit (R500)** unless the limit is updated.
-- **Hidden password input** is used during PIN entry, replacing the typed digits with asterisks for security.
+- **Hidden password input** is used during PIN entry
 
 ### Possible Advancements 
 1. **Account Management**:
    - Account Creation   [Done]
    - Account Deletion [Done]
 2. **Security Elevation**:
-   - Password recovery using phone number and email verification.
+   - Password recovery using phone number and email verification.[Ran-out-of-time]
 3. **User Interface Enhancement**:
-   - Use GUI for user friendliness, or present menus and outputs as tables for cleaner code.
+   - Use GUI for user friendliness, or present menus and outputs as tables for cleaner code. [Ran-out-of-time]
 4. **Inter-Account Transfers**:
-   - Allow users to create nested accounts and transfer money within them.
+   - Allow users to create nested accounts and transfer money within them.[Ran-out-of-time]
 5. **Bills Payment**:
-   - Enable users to pay registered public companies (e.g., DSTV Multi-choice, CPUT Fees).
+   - Enable users to pay registered public companies (e.g., DSTV Multi-choice, CPUT Fees).[Ran-out-of-time]
 6. **Input Sanitization**:
-   - Ensure proper input validation and sanitation.
+   - Ensure proper input validation and sanitation.[Done]
 
 
 src

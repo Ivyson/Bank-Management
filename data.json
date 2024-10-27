@@ -4,7 +4,7 @@
     "pin" : 1234,
     "firstName" : "Sam",
     "lastName" : "Boy",
-    "balance" : 478254.44999999995,
+    "balance" : 478054.44999999995,
     "withdrawalLimit" : 1000.0,
     "email" : "sam.boy@gmail.com",
     "phoneNumber" : "0812345678",
@@ -156,6 +156,10 @@
       "type" : "pay-out",
       "amount" : 100.0,
       "date" : "2024-10-21"
+    }, {
+      "type" : "pay-out",
+      "amount" : 200.0,
+      "date" : "2024-10-22"
     } ],
     "beneficiaries" : [ {
       "name" : "Sam",
@@ -169,7 +173,7 @@
     "pin" : 4321,
     "firstName" : "Gift",
     "lastName" : "Sam",
-    "balance" : 2600.0,
+    "balance" : 2800.0,
     "withdrawalLimit" : 500.0,
     "email" : "gift.sam@cput.ac.za",
     "phoneNumber" : "987-654-3210",
@@ -197,6 +201,10 @@
       "type" : "pay-in",
       "amount" : 100.0,
       "date" : "2024-10-21"
+    }, {
+      "type" : "pay-in",
+      "amount" : 200.0,
+      "date" : "2024-10-22"
     } ],
     "beneficiaries" : [ ]
   }, {
