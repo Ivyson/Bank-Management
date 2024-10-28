@@ -11,11 +11,7 @@ This **Banking Management System** is a Java-based project simulating essential 
 6. **Beneficiaries**: Enables adding and managing beneficiaries for simplified payments.
 7. **Customizable Withdrawal Limits**: Users can set their own withdrawal limits.
 8. **Account Management**: Provides account creation and deletion features.
-9. **Enhanced Security**: Supports password recovery via phone number and email verification.
-10. **Improved User Interface**: Optional GUI or table-based text menus for better usability.
-11. **Inter-Account Transfers**: Allows creation of nested accounts and fund transfers within them.
-12. **Bill Payments**: Enables payment to registered companies.
-13. **Input Validation**: Ensures sanitized inputs to maintain data integrity.
+9. **Input Validation**: Ensures sanitized inputs to maintain data integrity.
 
 ## Core Components
 
