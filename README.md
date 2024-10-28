@@ -1,111 +1,106 @@
-# Banking Management System 
+# Banking Management System
 
-This project is a **Banking Management System** developed in Java that simulates basic banking operations like **authentication**, **deposits**, **withdrawals**, and **inter-bank payments**. The system uses **JSON** files for data persistence, storing user details, balances, and transactional history.
+This **Banking Management System** is a Java-based project simulating essential banking operations like **authentication**, **deposits**, **withdrawals**, and **inter-bank payments**. It uses **JSON** for data storage to persist user information, account balances, and transaction history.
 
-### Key Features:
-1. **User Authentication**: Secure login by verifying the account number and PIN.
-2. **Deposit and Withdrawals**: Handles transactions with validation for deposit amounts and withdrawal limits.
-3. **Inter-Bank Payments**: Allows users to make payments to other accounts and save beneficiaries for quick future transactions.
-4. **Transaction History**: Maintains and displays the history of all user transactions.
-5. **Balance Inquiry**: Displays the user's current balance.
-6. **Beneficiaries**: Ability to add new beneficiaries or pay to previously added ones.
-7. **Customizable Withdrawal Limit**: Users can update their own withdrawal limits.
-8. **Account Management**: Features for account creation and deletion.
-9. **Enhanced Security**: Password recovery using phone number and email verification.
-10. **User Interface Enhancement**: Improved user interface with GUI or table-based text menus.
-11. **Inter-Account Transfers**: Allows users to create nested accounts and transfer money within them.
-12. **Bills Payment**: Enables users to pay registered public companies.
-13. **Input Sanitization**: Ensures proper input validation and sanitation.
+## Key Features
+1. **User Authentication**: Secure login by verifying account numbers and PINs.
+2. **Deposit and Withdrawals**: Supports deposits and withdrawals with validation for deposit amounts and withdrawal limits.
+3. **Inter-Bank Payments**: Facilitates payments to other accounts and allows saving beneficiaries for quicker transactions.
+4. **Transaction History**: Tracks and displays all transactions for each user.
+5. **Balance Inquiry**: Allows users to view their current balance.
+6. **Beneficiaries**: Enables adding and managing beneficiaries for simplified payments.
+7. **Customizable Withdrawal Limits**: Users can set their own withdrawal limits.
+8. **Account Management**: Provides account creation and deletion features.
+9. **Enhanced Security**: Supports password recovery via phone number and email verification.
+10. **Improved User Interface**: Optional GUI or table-based text menus for better usability.
+11. **Inter-Account Transfers**: Allows creation of nested accounts and fund transfers within them.
+12. **Bill Payments**: Enables payment to registered companies.
+13. **Input Validation**: Ensures sanitized inputs to maintain data integrity.
 
-## Key Components:
+## Core Components
 
-1. **`User` Class**: 
-   - Stores user information including account number, PIN, balance, transaction history, and a list of beneficiaries.
-   - Methods to add transactions, update balance, and modify withdrawal limits.
+1. **`User` Class**  
+   - Stores account information including account number, PIN, balance, transaction history, and a list of beneficiaries.
+   - Provides methods to add transactions, update balance, and set withdrawal limits.
    
-2. **`Bank` Class**:
-   - Central to managing users, transactions, deposits, withdrawals, and payments.
+2. **`Bank` Class**  
+   - Manages users, transactions, deposits, withdrawals, and payments.
    - Responsible for loading and saving user data to/from a JSON file.
-   - Implements payment functionality between users.
+   - Implements inter-user payment functionality.
    
-3. **`Main` Class**:
-   - The entry point for running the system.
-   - Contains a user-friendly menu for interacting with the banking system, such as choosing to deposit, withdraw, or make payments.
-   - Manages inputs and enforces input validation.
+3. **`Main` Class**  
+   - Entry point for running the system.
+   - Presents a user-friendly menu for actions like deposits, withdrawals, and payments.
+   - Handles input validation.
    
-4. **`Beneficiary` Class**:
-   - Represents a payee's details such as their name and account number, saved for future payments.
+4. **`Beneficiary` Class**  
+   - Represents a payee’s details (name and account number) and saves them for future payments.
 
-5. **`Transactions` Class**:
-   - Tracks transaction types (e.g., deposit, withdrawal, payment), amounts, and dates.
+5. **`Transactions` Class**  
+   - Tracks transaction types (deposit, withdrawal, payment), amounts, and dates.
    
-6. **JSON Data Storage**:
-   - All user data (including transactions and beneficiaries) is stored in a `data.json` file, which is loaded when the system starts and saved after every transaction.
+6. **JSON Data Storage**  
+   - Stores all user data, including transactions and beneficiaries, in a `data.json` file that loads on startup and saves after every transaction.
 
 ## Running the Project
 
-### Prerequisites:
-1. **Java**: Ensure you have JDK 8 or later installed.
-2. **Maven**: This project uses Maven for dependency management.
-3. **Jackson Databind**: To handle JSON serialization and deserialization.
+### Prerequisites
+1. **Java**: JDK 8 or later.
+2. **Maven**: For dependency management.
+3. **Jackson Databind**: Handles JSON serialization/deserialization.
 
-### Steps to Run:
-1. **Clone the Project**:
+### Setup and Execution
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Ivyson/Bank-Management.git
    ```
-2. **Navigate to the Project Directory**:
+2. **Navigate to Project Directory**:
    ```bash
    cd bank-management
    ```
 3. **Install Dependencies**:
-   Maven will automatically fetch the necessary dependencies.
+   Maven will fetch required dependencies.
    ```bash
    mvn clean install
    ```
-4. **Run the Project**:
-   Execute the project using the `Main` class.
+4. **Run the Application**:
+   Launch the project from the `Main` class.
    ```bash
    mvn exec:java -Dexec.mainClass="banking.management.Main"
    ```
-   
-5. **Usage**:
-   Once the program starts:
-   - Enter your **account number** and **PIN** for authentication.
-      - The account numbers and Pins of already existing users can be found in the `data.json` File
-   - Select options from the menu to deposit, withdraw, check balance, view transaction history, or make a payment.
+5. **Usage Instructions**:
+   - Enter your **account number** and **PIN** to log in.
+   - Choose menu options to deposit, withdraw, check balance, view transaction history, or make payments.
+   - **Note**: Pre-existing user account details are available in the `data.json` file.
 
-### Sample Workflow:
-1. **Login**: Enter account number and PIN.
-2. **Deposit**: Choose option `1`, enter an amount to deposit, and confirm the successful update of your balance.
-3. **Withdraw**: Select option `2`, input the amount to withdraw, and see your new balance.
+### Sample Workflow
+1. **Login**: Input account number and PIN.
+2. **Deposit**: Select option `1`, enter the deposit amount, and confirm the new balance.
+3. **Withdraw**: Choose option `2`, enter the withdrawal amount, and see the updated balance.
 4. **Payments**: Select option `5`, choose a beneficiary, and make a payment.
-5. **View Transactions**: Option `4` will display all previous transactions neatly.
+5. **View Transactions**: Select option `4` to display transaction history.
 
-## How It Works
-Each feature is designed to be user-friendly with a clean, text-based interface. Whenever the user performs an operation, such as making a deposit or withdrawal, the system validates the input and updates the account data accordingly. Transaction history is updated in real-time, and all data is saved to JSON files, ensuring persistence across sessions.
+## System Overview
+This project uses a user-friendly text-based interface. Each operation, such as deposits or withdrawals, validates input, updates account information, and saves data to JSON for persistence. Transaction history updates in real-time, ensuring data accuracy across sessions.
 
-### Notes:
-- You can edit the `data.json` file to initialize your users and their balances.
-- The system will not allow a user to **withdraw more than the default limit (R500)** unless the limit is updated.
-- **Hidden password input** is used during PIN entry
-
-### Possible Advancements 
-1. **Account Management**:
-   - Account Creation   [Done]
-   - Account Deletion [Done]
-2. **Security Elevation**:
-   - Password recovery using phone number and email verification.[Ran-out-of-time]
-3. **User Interface Enhancement**:
-   - Use GUI for user friendliness, or present menus and outputs as tables for cleaner code. [Ran-out-of-time]
+### Development Roadmap
+1. **Account Management**:  
+   - [x] Account Creation  
+   - [x] Account Deletion  
+2. **Security Improvements**:
+   - Password recovery through phone number and email verification (To-do).
+3. **UI Enhancement**:
+   - Future implementation of a GUI or table-based menus (To-do).
 4. **Inter-Account Transfers**:
-   - Allow users to create nested accounts and transfer money within them.[Ran-out-of-time]
-5. **Bills Payment**:
-   - Enable users to pay registered public companies (e.g., DSTV Multi-choice, CPUT Fees).[Ran-out-of-time]
+   - Nested account support for transfers (To-do).
+5. **Bill Payment**:
+   - Enable bill payments to public entities like DSTV or educational fees (To-do).
 6. **Input Sanitization**:
-   - Ensure proper input validation and sanitation.[Done]
+   - Completed validation to prevent errors and maintain security.
 
+## Project Structure
 
+```plaintext
 src
 ├── main
 │   ├── java
@@ -125,3 +120,4 @@ src
 │               └── BankTest.java
 ├── README.md
 └── data.json
+```
